@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj": {}
+    "C:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj": {
+    "C:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj",
         "projectName": "todoC#",
-        "projectPath": "c:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj",
+        "projectPath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\todoC#.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\practica C#\\todoC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,15 +38,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -59,6 +61,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
